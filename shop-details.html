@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <title>صفحه محصول</title>
+
+    <!--meta tags-->
+    <meta charset="UTF-8">
+    <meta name="description" content="Ogani Template">
+    <meta name="keywords" content="Ogani, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#72D600"/>
+    <!-- / meta tags-->
+    
+   <!-- Css Styles -->
+   <link rel="stylesheet" href="css/bootstrap-rtl.min.css" type="text/css">
+   <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+   <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+   <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+   <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+   <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+   <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+   <link rel="stylesheet" href="css/style.css" type="text/css">
+   <!-- / Css Styles -->
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+    <!-- / Page Preloder -->
+
+    <!-- Humberger -->
+    <div class="humberger__menu__overlay"></div>
+    <div class="humberger__menu__wrapper">
+        <!-- website Logo-->
+        <div class="humberger__menu__logo">
+            <a href="#"><img src="img/logo.png" alt=""></a>
+        </div>
+        <!-- / website Logo-->
+        <div class="humberger__menu__cart">
+            <ul>
+                <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
+                <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+            </ul>
+            <div class="header__cart__price">مبلغ خرید: <span>150.000 تومان</span></div>
+        </div>
+        <div class="humberger__menu__widget">
+            <div class="header__top__right__language">
+                <img src="img/language.png" alt="">
+                <div>فارسی</div>
+                <span class="arrow_carrot-down"></span>
+                <ul>
+                    <li><a href="#">انگلیسی</a></li>
+                </ul>
+            </div>
+            <div class="header__top__right__auth">
+                <a href="#"><i class="fa fa-user"></i> ورود</a>
+            </div>
+        </div>
+        <nav class="humberger__menu__nav mobile-menu">
+            <ul>
+                <li><a href="./index.html">صفحه اصلی</a></li>
+                <li><a href="./shop-grid.html">فروشگاه</a></li>
+                <li class="active"><a href="#">صفحات</a>
+                    <ul class="header__menu__dropdown">
+                        <li><a href="./shop-details.html">صفحه محصول</a></li>
+                        <li><a href="./shoping-cart.html">سبد خرید</a></li>
+                        <li><a href="./checkout.html">پیش فاکتور</a></li>
+                        <li><a href="./blog-details.html">صفحه مقاله</a></li>
+                    </ul>
+                </li>
+                <li><a href="./blog.html">بلاگ</a></li>
+                <li><a href="./contact.html">تماس با ما</a></li>
+            </ul>
+        </nav>
+        <div id="mobile-menu-wrap"></div>
+        <div class="header__top__right__social">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-pinterest-p"></i></a>
+        </div>
+        <div class="humberger__menu__contact">
+            <ul>
+                <li><i class="fa fa-envelope"></i> mayamirmahdi@gmail.com</li>
+                <li>هزینه ارسال رایگان است</li>
+            </ul>
+        </div>
+    </div>
+    <!-- / Humberger -->
+
+    <!-- Header Section  -->
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="header__top__left">
+                            <ul>
+                                <li><i class="fa fa-envelope"></i> mayamirmahdi@gmail.com</li>
+                                <li>هزینه ارسال رایگان است</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="header__top__right">
+                            <div class="header__top__right__social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                            </div>
+                            <div class="header__top__right__language">
+                                <img src="img/language.png" alt="">
+                                <div>فارسی</div>
+                                <span class="arrow_carrot-down"></span>
+                                <ul>
+                                    <li><a href="#">انگلیسی</a></li>
+                                </ul>
+                            </div>
+                            <div class="header__top__right__auth">
+                                <a href="#"><i class="fa fa-user"></i> ورود</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <!-- website Logo-->
+                <div class="col-lg-3">
+                    <div class="header__logo">
+                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <!-- / website Logo-->
+                <!--main menu-->
+                <div class="col-lg-6">
+                    <nav class="header__menu">
+                        <ul>
+                            <li><a href="./index.html">صفحه اصلی</a></li>
+                            <li><a href="./shop-grid.html">فروشگاه</a></li>
+                            <li class="active"><a href="#">صفحات</a>
+                                <ul class="header__menu__dropdown">
+                                    <li><a href="./shop-details.html">صفحه محصول</a></li>
+                                    <li><a href="./shoping-cart.html">سبد خرید</a></li>
+                                    <li><a href="./checkout.html">پیش فاکتور</a></li>
+                                    <li><a href="./blog-details.html">صفحه مقاله</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="./blog.html">بلاگ</a></li>
+                            <li><a href="./contact.html">تماس با ما</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- / main menu-->
+                <div class="col-lg-3">
+                    <div class="header__cart">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
+                            <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+                        </ul>
+                        <div class="header__cart__price">مبلغ خرید:<span> 150.000 تومان</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="humberger__open">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <!-- / Header Section -->
+
+    <!-- Hero Section  -->
+    <section class="hero hero-normal">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="hero__categories">
+                        <div class="hero__categories__all">
+                            <i class="fa fa-bars"></i>
+                            <span> دسته بندی ها</span>
+                        </div>
+                        <ul>
+                            <li><a href="shop-grid.html">گوشت تازه</a></li>
+                            <li><a href="shop-grid.html">سبزیجات</a></li>
+                            <li><a href="shop-grid.html">میوه و خشکبار</a></li>
+                            <li><a href="shop-grid.html">مواد غذایی</a></li>
+                            <li><a href="shop-grid.html">میوه تازه</a></li>
+                            <li><a href="shop-grid.html">کره و تخم مرغ</a></li>
+                            <li><a href="shop-grid.html">محصولات لبنی</a></li>
+                            <li><a href="shop-grid.html">مرکبات</a></li>
+                            <li><a href="shop-grid.html">میوه های استوایی</a></li>
+                            <li><a href="shop-grid.html">حبوبات</a></li>
+                            <li><a href="shop-grid.html">آجیل و خشکبار</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="hero__search">
+                        <div class="hero__search__form">
+                            <form action="#">
+                                <input type="text" placeholder="دنبال چه چیزی هستید ؟">
+                                <button type="submit" class="site-btn">جستجو</button>
+                            </form>
+                        </div>
+                        <div class="hero__search__phone">
+                            <div class="hero__search__phone__icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <div class="hero__search__phone__text">
+                                <h5>09022787611</h5>
+                                <span>پشتیبانی 24 ساعته</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / Hero Section -->
+
+    <!-- Breadcrumb Section  -->
+    <section class="breadcrumb-section set-bg" data-setbg="img/breadcrumb.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="breadcrumb__text">
+                        <h2>بسته سبزیجات</h2>
+                        <div class="breadcrumb__option">
+                            <a href="./index.html">صفحه اصلی</a>
+                            <a href="./index.html">سبزیجات</a>
+                            <span>بسته سبزیجات</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / Breadcrumb Section -->
+
+    <!-- Product Details Section  -->
+    <section class="product-details spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="product__details__pic">
+                        <div class="product__details__pic__item">
+                            <img class="product__details__pic__item--large"
+                                src="img/product/details/product-details-1.jpg" alt="">
+                        </div>
+                        <div class="product__details__pic__slider owl-carousel">
+                            <img data-imgbigurl="img/product/details/product-details-2.jpg"
+                                src="img/product/details/thumb-1.jpg" alt="">
+                            <img data-imgbigurl="img/product/details/product-details-3.jpg"
+                                src="img/product/details/thumb-2.jpg" alt="">
+                            <img data-imgbigurl="img/product/details/product-details-5.jpg"
+                                src="img/product/details/thumb-3.jpg" alt="">
+                            <img data-imgbigurl="img/product/details/product-details-4.jpg"
+                                src="img/product/details/thumb-4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="product__details__text">
+                        <h3>بسته سبزیجات</h3>
+                        <div class="product__details__rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <span>(18 دیدگاه)</span>
+                        </div>
+                        <div class="product__details__price">150.000 تومان</div>
+                        <p>سبزیجات به‌دلیل فوایدشان برای سلامت مورد اهمیت هستند. اکثر سبزیجات کالری کم‌، فیبر، مواد معدنی و ویتامین‌های زیادی دارند. برخی سبزیجات فواید بیش‌تری از بقیه دارند، مثل سبزیجاتی که قادرند با التهاب مقابله کنند یا خطر بیماری‌ها را کاهش دهند.</p>
+                        <div class="product__details__quantity">
+                            <div class="quantity">
+                                <div class="pro-qty">
+                                    <input type="text" value="1">
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="primary-btn">افزودن به سبد خرید</a>
+                        <a href="#" class="heart-icon"><span class="icon_heart_alt text-danger"></span></a>
+                        <ul>
+                            <li><b>موجودی</b> <span>در انبار</span></li>
+                            <li><b>حمل و نقل</b> <span>ارسال در یک روز،  به صورت رایگان است!</span></li>
+                            <li><b>وزن</b> <span>0.5 کیلوگرم</span></li>
+                            <li><b>  اشتراک:</b>
+                                <div class="share">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="product__details__tab">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab"
+                                    aria-selected="true">توضیحات</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab"
+                                    aria-selected="false">اطلاعات</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#tabs-3" role="tab"
+                                    aria-selected="false">دیدگاه ها <span></span></a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="tabs-1" role="tabpanel">
+                                <div class="product__details__tab__desc">
+                                    <h6>توضیحات محصولات</h6>
+                                    <p>به‌طور کلی،سبزیها هر نوع گیاهی هستند که به خاطر خوش‌عطر یا خوش‌طعم بودن به عنوان غذا، طعم دهنده، دارو، یا عطر دهنده مورد استفاده قرار می‌گیرند. استفاده در آشپزی سبزی‌ها را از ادویه‌ها متمایز می‌کند. سبزی به برگهای سبز یا بخش‌های گل‌ده گیاه اشاره می‌کند. (تازه یا خشک شده) در حالیکه ادویه‌ها از بخش‌های دیگر گیاه شامل بذر، پوست، ریشه، و میوه (معمولاً خشک شده) تهیه می‌شوند.
+
+                                        سبزی‌ها در موارد گوناگونی از جمله: آشپزی، پزشکی و در برخی موارد معنوی استفاده می‌شوند. در کاربرد پزشکی یا معنوی هر بخش از گیاه از جمله:برگ‌ها، ریشه‌ها، گل‌ها، بذرها، پوست ریشه، پوست درونی (بن‌لاد آوندی)، انگم و فرابر ممکن است به عنوان سبزی در نظر گرفته شود. انواع زیادی از سبزی وجود دارد مانند: سبزی خوردن ، سبزی آش ، سبزی دلمه وغذاهای زیادی که با سبزی درست می‌شوند: مانند قرمه سبزی،کوکو سبزی و… </p>
+                                        <p>سبزی‌های پختنی از تره‌بار متمایزند. این سبزی‌ها مشابه ادویه‌جات به میزان کم و برای طعم‌دادن به غذا و نه خود غذا مورد استفاده قرار می‌گیرند. سبزی‌ها ممکن است مانند: زعتر یا اسطوخودوس پایا یا مانند جعفری دوساله یا مانند ریحان یک‌ساله باشند. سبزی‌هایپایا می‌توانند مانند رومارن درختچه یا مانند برگ بو درخت باشند. گیاهان علفی که طبق تعریف آنها نمی‌توانند گیاهان چوبی باشند، این‌گونه نیستند. برخی از گیاهان مانند شوید و بذر آن یا برگ‌های گشنیز و بذر آن را هم به عنوان سبزی و هم ادویه استفاده می‌کنند. همچنین، برخی از سبزی‌ها مانند خانوادهٔ نعناع وجود دارد که هم برای اهداف آشپزی و هم به عنوان گیاه دارویی مورد استفاده قرار می‌گیرند. </p>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tabs-2" role="tabpanel">
+                                <div class="product__details__tab__desc">
+                                    <h6>اطلاعات در مورد محصولات</h6>
+                                    <p>برخی از سبزی‌ها حاوی مواد شیمیایی گیاهی هستند که روی بدن تأثیر می‌گذارند. زمانی که به مقدار کمی مصرف می‌شود ممکن است تأثیراتی داشته باشد که نمونه آن در آشپزی «ادویه‌زدن» است، و تعدادی از سبزی‌ها در صورت مصرف زیاد سمی هستند. عصارهٔ برخی از سبزی‌ها به عنوان مثال گل راعی یا کاوا را می‌توان برای اهداف پزشکی: کاهش افسردگی و استرس مورد استفاده قرار داد. با این حال مصرف زیاد این سبزی‌ها ممکن است منجر به افزایش مواد سمی در بدن شده و عوارضی جدی به همراه داشته باشند و بنابراین باید با احتیاط مصرف شوند. هنگام مصرف آنها به همراه بعضی از داروهای تجویزی (شیمیایی) هم ممکن است عوارض جانبی به همراه داشته باشند. </p>
+                                    <p>استفاده از لوازم آرایشی گیاهی به حدود شش قرن پیش در کشورهای اروپایی و غربی برمی گردد. اغلب مخلوط‌ها و خمیرهایی برای سفید کردن صورت درست شدند. در طول دهه ۱۹۴۰، لوازم آرایشی گیاهی با ظهور رژِ لبِ قرمز رنگ که هر سال قرمزی آن شدیدتر می‌شد، وارد عرصه شدند. لوازم آرایشی و بهداشتی گیاهی به شکل‌های زیادی مانند: کرم صورت، اسکراب، رژ لب، رایحه‌های طبیعی و روغن‌های بدن از راه رسیدند. </p>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tabs-3" role="tabpanel">
+                                <div class="product__details__tab__desc">
+                                    <h6> دیدگاه</h6>
+                                    <p>سبزیجات دارای خواص بیشماری هستند که مصرف آنها برای بدن انسان ضروری است. این دسته از نباتات حاوی ویتامینهای لازم ، مواد معدنی و حتی بعضی از آنها دارای پروتئین بوده که بدن انسان نیازمند به آنهاست .این نبات در بدن انسان تولید باز نموده و اسیدهای اضافی ناشی از تولید غذاها را در معده خنثی می کند.همچنین به علت وجود سلولز عمل گوارش را در معده تنظیم می نماید..</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / Product Details Section -->
+
+    <!-- Related Product Section  -->
+    <section class="related-product">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title related__product__title">
+                        <h2>محصولات مرتبط</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="img/product/product-1.jpg">
+                            <ul class="product__item__pic__hover">
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                        </div>
+                        <a href="#">
+                            <div class="product__item__text">
+                                <h6>گوشت تازه</h6>
+                                <h5>30.00</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="img/product/product-2.jpg">
+                            <ul class="product__item__pic__hover">
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                        </div>
+                        <a href="#">
+                            <div class="product__item__text">
+                                <h6>میوه تازه</h6>
+                                <h5>40.000 تومان</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="img/product/product-3.jpg">
+                            <ul class="product__item__pic__hover">
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                        </div>
+                        <a href="#">
+                            <div class="product__item__text">
+                                <h6>میوه های استوایی</h6>
+                                <h5>130.000 تومان</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="img/product/product-7.jpg">
+                            <ul class="product__item__pic__hover">
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                        </div>
+                        <a href="#">
+                            <div class="product__item__text">
+                                <h6>میوه های تابستانی</h6>
+                                <h5>120.000 تومان</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /  Related Product Section-->
+
+    <!-- Footer Section  -->
+    <footer class="footer spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer__about">
+                        <div class="footer__about__logo">
+                            <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                        </div>
+                        <ul>
+                            <li>آدرس: گیلان، لاهیجان، بازکیاگوراب، کوچه حافظ پنجم</li>
+                            <li>شماره تماس :09022787611</li>
+                            <li>ایمیل : mayamirmahdi@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
+                    <div class="footer__widget">
+                        <h6>لینکهای مهم</h6>
+                        <ul>
+                            <li><a href="#">درباره ما</a></li>
+                            <li><a href="#">درباره فروشگا ما</a></li>
+                            <li><a href="#">امنیت خرید</a></li>
+                            <li><a href="#">اطلاعات ارسال</a></li>
+                            <li><a href="#">امنیت و حریم خصوصی</a></li>
+                            <li><a href="#">نقشه راه ما</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">در مورد ما</a></li>
+                            <li><a href="#">خدمات ما</a></li>
+                            <li><a href="#">پروژه ها</a></li>
+                            <li><a href="#">تماس با ما</a></li>
+                            <li><a href="#">خلاقیت</a></li>
+                            <li><a href="#">توصیفات</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="footer__widget">
+                        <h6>به خبر نامه ما بپیوندید</h6>
+                        <p>درباره آخرین پیشنهادات ویژه ما ، به روزرسانی های پست الکترونیکی را دریافت کنید.</p>
+                        <form action="#">
+                            <input type="text" placeholder="ایمیل خود را وارد کنید">
+                            <button type="submit" class="site-btn">اشتراک گذاری</button>
+                        </form>
+                        <div class="footer__widget__social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--copyright-->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer__copyright">
+                        <div class="footer__copyright__text">
+                            <p>
+                               طراحی شده <i class="fa fa-heart text-danger" aria-hidden="true"></i>  توسط 
+                            <a href="https://colorlib.com/" target="_blank">colorlib</a>
+                             فارسی و راست چین شده<i class="fa fa-heart text-danger pr-1" aria-hidden="true"></i> توسط <a href="https://webrubik.com/"  target="_blank">Amirmahdi</a> 
+                            </p>
+                        </div>
+                        <div class="footer__copyright__payment"><img src="img/payment-item.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <!-- / copyright-->
+        </div>
+    </footer>
+    <!-- /  Footer Section-->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- / Js Plugins-->
+
+</body>
+
+</html>
